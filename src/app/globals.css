@@ -1,15 +1,73 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Основные цвета */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Нейтральные оттенки (серый) */
+  --grey-50: #f5f5f5;
+  --grey-100: #ededed;  /* бывший darker-white */
+  --grey-200: #dcdcdc;  /* бывший dark-white */
+  --grey-250: #D1D1D1;
+  --grey-300: #B0B0B03B;  /* бывший light-grey */
+  --grey-400: #87808c;  /* бывший lighter-grey */
+  --grey-500: #6b6b6b;  /* бывший darker-grey */
+  --grey-600: #555555;  /* бывший dark-grey */
+  --grey-650: #3E3E3E;
+  --grey-700: #3d3d3d;  /* бывший grey */
+  --grey-750: #33363F;
+  --grey-800: #353535;  /* бывший black */
+  --grey-900: #1e1e1e;  /* бывший darker-black */
+  --grey-950: #0f001a;  /* бывший dark-black */
+
+  /* Акцентные */
+  --green-light: #a8e4a0;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--color-white);
+  --color-header-text: var(--grey-800);
+  --color-text-banner: var(--grey-700);
+  --color-title-buy-section: var(--grey-900);
+  --color-title: var(--grey-700);
+  --color-buy-section: var(--grey-700);
+  --color-bg-button: var(--grey-900);
+  --color-bg-button-secondary: var(--green-light);
+  --color-text-button: var(--color-white);
+  --color-bg-slide: var(--grey-300);
+  --color-text-slide-title: var(--grey-650);
+  --color-text-slide-description: var(--grey-950);
+  --color-bg-slider-button: var(--grey-200);
+  --color-text-rules: var(--grey-700);
+  --color-text-questions: var(--grey-700);
+  --color-bg-accordion-plus: var(--grey-750);
+  --color-fill-plus-accordion: var(--color-white);
+  --color-border-accordion: var(--grey-250);
+  --color-subtext-tickets: var(--grey-400);
+  --color-bg-age: var(--grey-100);
+  --color-text-age: var(--grey-500);
+  --color-text-free: var(--grey-400);
+  --color-subtext-footer: var(--grey-400);
+  --color-bg-footer: var(--grey-100);
+  --color-text-label: var(--grey-500);
+
+  --text-xxs: 12px;
+  --text-xs: 13px;
+  --text-sm: 14px;
+  --text-s: 15px;
+  --text-base: 16px;
+  --text-md: 17px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 22px;
+  --text-3xl: 24px;
+  --text-4xl: 26px;
+  --text-5xl: 36px;
+  --text-6xl: 56px;
+
+  --font-sans: var(--font-manrope);
+  --font-alt: var(--font-M_PLUS_1_Code);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,10 +75,4 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
