@@ -7,6 +7,8 @@ export interface ISchemaSection {
         titleMobile: string;
         name: string;
         description: string;
+        name2?: string;
+        description2?: string;
         time: string;
         img: StaticImageData;
         border?: boolean;
@@ -17,6 +19,8 @@ export interface ISchemaSection {
         titleMobile: string;
         name: string;
         description: string;
+        name2?: string;
+        description2?: string;
         time: string;
         img: StaticImageData;
         border?: boolean;

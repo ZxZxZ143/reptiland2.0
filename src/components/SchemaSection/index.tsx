@@ -45,6 +45,8 @@ const SchemaSection = () => {
                             titleMobile={item.titleMobile}
                             name={item.name}
                             description={item.description}
+                            name2={item.name2}
+                            description2={item.description2}
                             time={item.time}
                             img={item.img}
                             border={item.border}

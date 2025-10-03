@@ -54,6 +54,8 @@ export const schemaSectionMapping: ISchemaSection = {
             time: '16:00',
             description: 'PhD докторант',
             name: 'Галымжанов Ислам',
+            name2: 'Жанбасбаева Сымбат',
+            description2: 'Научный сотрудник Института ботаники и фитоинтродукции',
             titleMobile: 'Лекция о разнообразии опылителей в Казахстане, их роли в экосистеме и возможности помочь этим созданиям',
             img: Avatar5Png,
         },
