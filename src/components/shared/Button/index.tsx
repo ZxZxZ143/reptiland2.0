@@ -24,15 +24,15 @@ const Button: FC<PropsWithChildren<ButtonProps>> = ({
 
     const sizeMapping = {
         'small': 'py-2.5',
-        'medium': 'p-3',
-        'large': 'p-4'
+        'medium': 'py-3 md:py-2.5',
+        'large': 'py-4'
     }
 
     return (
         <button
             type={type}
             onClick={onClick}
-            className={clsx('transition cursor-pointer inline-flex justify-center items-center text-text-button text-lg font-bold rounded-full',
+            className={clsx('transition cursor-pointer inline-flex justify-center items-center text-text-button text-lg md:text-xl font-bold rounded-full',
                 classNameMapping[variant],
                 sizeMapping[size],
                 className)

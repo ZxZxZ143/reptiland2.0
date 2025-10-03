@@ -7,14 +7,14 @@ import ReptilePng from "@/assets/images/Reptile.png";
 const Banner = () => {
     return (
         <div className="mt-8">
-            <div className="text-sm font-bold px-[34px] text-text-banner w-fit">
-                <div className="flex items-center justify-center gap-5">
-                    <ClockSvg className="w-7"/>
-                    <p>4-5 октября, 11:00</p>
+            <div className="sm:flex sm:items-center sm:gap-16 text-sm font-bold px-[34px] sm:px-[44px] md:px-[64px] lg:px-[89px] text-text-banner max-w-[1280px] mx-auto w-full">
+                <div className="flex items-center justify-center gap-5 w-fit">
+                    <ClockSvg className="w-7 h-7 sm:w-9 sm:h-9"/>
+                    <p className="sm:whitespace-pre-line sm:text-xl">4-5 октября,{"\n"} 11:00</p>
                 </div>
-                <div className="flex items-center justify-center gap-5 mt-3">
-                    <MapPointSvg className="h-7"/>
-                    <p>4-5 октября, 11:00</p>
+                <div className="flex items-center justify-center gap-5 sm:mt-0 mt-3 w-fit">
+                    <MapPointSvg className="h-7 w-6 sm:h-9 sm:w-8"/>
+                    <p className="sm:whitespace-pre-line sm:text-xl">4-5 октября,{"\n"} 11:00</p>
                 </div>
             </div>
             <div className="w-full overflow-hidden mt-8">

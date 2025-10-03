@@ -4,8 +4,8 @@ import YoutubeSvg from "@/assets/icons/YoutubeSvg";
 
 const Header = () => {
     return (
-        <header className="flex justify-between items-center gap-3 flex-wrap px-5">
-            <h1 className="font-alt text-3xl text-header-text tracking-[4px] font-bold">
+        <header className="flex justify-between items-center gap-3 flex-wrap px-5 md:px-7 lg:px-12 max-w-[1280px] mx-auto">
+            <h1 className="font-alt text-3xl text-header-text tracking-[4px] font-bold md:text-5xl">
                 REPTILAND
             </h1>
             <div className="flex items-center justify-end gap-4">

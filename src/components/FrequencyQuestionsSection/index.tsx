@@ -17,8 +17,8 @@ const FrequencyQuestionsSection = () => {
     }
 
     return (
-        <div className="mt-[77px]">
-            <Title className="mb-9">Часто задаваемые вопросы</Title>
+        <div className="mt-[77px] sm:mt-24 md:mt-28 lg:mt-36">
+            <Title className="mb-9 sm:mb-12 md:mb-14 lg:mb-20">Часто задаваемые вопросы</Title>
             {
                 frequencyQuestionMapping.map(question => (
                     <QuestionBlock

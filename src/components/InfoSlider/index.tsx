@@ -26,7 +26,7 @@ const InfoSlider = () => {
     }
 
     return (
-        <div className="mt-20">
+        <div className="mt-20 sm:mt-24 md:mt-28 lg:mt-36">
             <Title>
                 Что меня ждёт на выставке?
             </Title>
@@ -45,7 +45,7 @@ const InfoSlider = () => {
                     ))
                 }
             </div>
-            <div className="mt-8 flex gap-4 justify-center">
+            <div className="mt-8 flex gap-4 justify-center lg:justify-start">
                 <SliderButton onClick={prevSlide}>
                     <ArrowSvg className="w-full" />
                 </SliderButton>
