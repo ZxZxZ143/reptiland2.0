@@ -47,14 +47,37 @@ export const metadata: Metadata = {
         title: "Reptiland.kz — Первая выставка рептилий в Казахстане",
         description:
             "Змеи, ящерицы, хамелеоны, черепахи и редкие рептилии. Уникальное событие в Казахстане для любителей экзотических животных.",
-        images: ["/images/reptile-banner.jpg"]
+        images: ["/images/banner.png"]
     },
     icons: {
         icon: "/favicon.ico"
     },
     alternates: {
         canonical: "https://reptiland.kz"
-    }
+    },
+    other: {
+        // Telegram
+        "telegram:title": "Первая выставка рептилий в Казахстане — Reptiland.kz",
+        "telegram:description":
+            "Подписывайтесь на официальный Telegram Reptiland и узнавайте все новости о выставке рептилий.",
+        "telegram:keywords":
+            "выставка рептилий Казахстан, Telegram рептилии, reptiland telegram, новости террариумистики",
+
+        // WhatsApp
+        "whatsapp:title": "Reptiland в WhatsApp — выставка рептилий Казахстан",
+        "whatsapp:description":
+            "Общайтесь с нами напрямую через WhatsApp, бронируйте билеты и узнавайте новости о выставке рептилий.",
+        "whatsapp:keywords":
+            "выставка рептилий Казахстан, WhatsApp reptiland, купить билет выставка рептилий, WhatsApp контакт reptiland",
+
+        // Instagram
+        "instagram:title":
+            "Reptiland в Instagram — первая выставка рептилий в Казахстане",
+        "instagram:description":
+            "Следите за фото и видео рептилий на нашей странице в Instagram! Хамелеоны, змеи, черепахи и ящерицы ждут вас.",
+        "instagram:keywords":
+            "выставка рептилий Казахстан, reptiland instagram, фото рептилий, экзотические животные Алматы",
+    },
 };
 
 export default function RootLayout({
