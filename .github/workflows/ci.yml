@@ -17,10 +17,10 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm run build
+        run: npm run build && npm run export
 
       - name: Deploy to deploy branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: deploy       # имя ветки для деплоя
-          folder: out          # папка со статикой (для Next.js `out`)
+          branch: deploy
+          folder: out   # теперь out реально появится

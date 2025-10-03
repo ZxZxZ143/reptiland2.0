@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "npx serve@latest .next/out",
+    "export": "next export"
   },
   "dependencies": {
     "clsx": "^2.1.1",
