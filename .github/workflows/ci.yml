@@ -1,26 +1,26 @@
-name: CI
+name: Deploy to branch
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main   # триггерим деплой при пуше в main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20.19.0
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build project
         run: npm run build
+
+      - name: Deploy to deploy branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: deploy       # имя ветки для деплоя
+          folder: out          # папка со статикой (для Next.js `out`)
