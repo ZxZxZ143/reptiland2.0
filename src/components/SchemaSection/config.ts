@@ -1,10 +1,4 @@
 import {ISchemaSection} from "@/components/SchemaSection/type";
-import Avatar1Png from "@/assets/images/avatar_1.png";
-import Avatar2Png from "@/assets/images/avatar_2.png";
-import Avatar3Png from "@/assets/images/avatar_3.png";
-import Avatar4Png from "@/assets/images/avatar_4.png";
-import Avatar5Png from "@/assets/images/avatar_5.png";
-import Avatar6Png from "@/assets/images/avatar_6.png";
 
 export const schemaSectionMapping: ISchemaSection = {
     "04.10": [
@@ -16,7 +10,7 @@ export const schemaSectionMapping: ISchemaSection = {
             description: 'Ветеринарный врач-экзотолог, основатель центра “Белый Клык" зооволонтёр',
             name: 'Хан Олег',
             titleMobile: 'Деятельность фонда Tasbaqa и судьба среднеазиатской черепахи',
-            img: Avatar1Png,
+            img: '/images/avatar_1.png',
             border: true,
         },
         {
@@ -26,7 +20,7 @@ export const schemaSectionMapping: ISchemaSection = {
             description: 'Председатель совета молодых учёных, научный сотрудник Института зоологии КН МНВО РК, арахнолог',
             name: 'Ким Леонид',
             titleMobile: 'Лекция “Спайдервёрс Казахстана” - о многолетних исследованиях арахнофауны страны, редких паукообразных и проекте iNaturalist.',
-            img: Avatar2Png,
+            img: '/images/avatar_2.png',
         },
         {
             id: 2,
@@ -35,7 +29,7 @@ export const schemaSectionMapping: ISchemaSection = {
             description: 'Ведущий герпетолог и заведующий экзотариума зоопарка г.Алматы',
             name: 'Александр Гурев',
             titleMobile: 'Александр расскажет о биоразнообразии ядовитых змей Казахстана, а также о технике безопасности и первой помощи при укусе.',
-            img: Avatar3Png,
+            img: '/images/avatar_3.png',
         },
     ],
     "05.10": [
@@ -47,7 +41,7 @@ export const schemaSectionMapping: ISchemaSection = {
             description: 'Кандидат биологических наук, ассоциированный профессор Университета Нархоз.',
             name: 'Борібай Эльмира',
             titleMobile: 'Тема доклада - рептилии и амфибии в условиях изменяющегося климата',
-            img: Avatar4Png,
+            img: '/images/avatar_4.png',
             border: true,
         },
         {
@@ -59,7 +53,7 @@ export const schemaSectionMapping: ISchemaSection = {
             name2: 'Жанбасбаева Сымбат',
             description2: 'Научный сотрудник Института ботаники и фитоинтродукции',
             titleMobile: 'Лекция о разнообразии опылителей в Казахстане, их роли в экосистеме и возможности помочь этим созданиям',
-            img: Avatar5Png,
+            img: '/images/avatar_5.png',
         },
         {
             id: 2,
@@ -68,7 +62,7 @@ export const schemaSectionMapping: ISchemaSection = {
             description: 'Заместитель главного директора по науке Института зоологии, представитель Научного органа СИТЕС в Казахстане',
             name: 'Чирикова Марина',
             titleMobile: 'Лекция о правилах и объектах CITES, законном оформлении документов и требованиях к получению статуса питомника.',
-            img: Avatar6Png,
+            img: '/images/avatar_6.png',
         },
     ],
 }

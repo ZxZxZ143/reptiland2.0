@@ -2,7 +2,6 @@ import React from 'react';
 import ClockSvg from "@/assets/icons/ClockSvg";
 import MapPointSvg from "@/assets/icons/MapPointSvg";
 import Image from "next/image";
-import ReptilePng from "@/assets/images/Reptile.png";
 
 const Banner = () => {
     return (
@@ -18,7 +17,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="w-full overflow-hidden mt-8">
-                <Image src={ReptilePng} alt="Хамелион на ветке" className="w-full min-w-[420px] translate-x-[5%]" />
+                <Image width={1400} height={1400} src="/images/Reptile.png" alt="Хамелион на ветке" className="w-full min-w-[420px] translate-x-[5%]" />
             </div>
         </div>
     );

@@ -10,7 +10,7 @@ export interface ISchemaSection {
         name2?: string;
         description2?: string;
         time: string;
-        img: StaticImageData;
+        img: string;
         border?: boolean;
     }[],
     "05.10": {
@@ -22,7 +22,7 @@ export interface ISchemaSection {
         name2?: string;
         description2?: string;
         time: string;
-        img: StaticImageData;
+        img: string;
         border?: boolean;
     }[],
 

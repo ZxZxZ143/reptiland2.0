@@ -25,10 +25,15 @@ const SchemaBlock: FC<SchemaBlockProps> = ({
                                                title
                                            }) => {
     return (
-        <div className={clsx("hidden md:flex gap-10 w-full py-9 border-b-1 border-border-schema", {'border-t-1': border})}>
+        <div
+            className={clsx("hidden md:flex gap-10 w-full py-9 border-b-1 border-border-schema", {'border-t-1': border})}>
             <div className="flex gap-7 lg:gap-9 flex-4">
-                <Image src={img} alt="лектор"
-                       className="w-[70px] h-[70px] lg:w-[100px] lg:h-[100px] max-w-[70px] lg:max-w-[100px]"/>
+                <Image
+                    src={img}
+                    width={100}
+                    height={100}
+                    alt="лектор"
+                    className="w-[70px] h-[70px] lg:w-[100px] lg:h-[100px] max-w-[70px] lg:max-w-[100px]"/>
                 <div className="flex flex-col gap-2">
                     <p className="text-lg lg:text-3xl font-bold">{name}</p>
                     <p className="font-medium text-subtext-schema text-base lg:text-lg leading-6">{description}</p>
