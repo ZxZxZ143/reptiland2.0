@@ -14,7 +14,7 @@ interface TicketProps {
 
 const Ticket:FC<TicketProps> = ({alt, img, age, cost, title, isFree}) => {
     return (
-        <div className="flex justify-between gap-9">
+        <div className="flex justify-between">
             <div className="flex gap-6">
                 <Image src={img} alt={alt} className="min-w-16 w-16 h-16 aspect-square" />
                 <div className="flex flex-col gap-2 font-bold text-base">
