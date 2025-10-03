@@ -9,9 +9,15 @@ const Header = () => {
                 REPTILAND
             </h1>
             <div className="flex items-center justify-end gap-4">
-                <InstaSvg className="w-[42px]" />
-                <TgSvg className="w-[42px]" />
-                <YoutubeSvg className="w-[42px]" />
+                <a href="https://www.instagram.com/reptiland_kz?igsh=ZTI3c2FkNDk2MDRm" target="_blank" rel="noopener noreferrer">
+                    <InstaSvg className="w-[42px]" />
+                </a>
+                <a href="https://t.me/almazoonews" target="_blank" rel="noopener noreferrer">
+                    <TgSvg className="w-[42px]" />
+                </a>
+                <a href="https://www.youtube.com/channel/UCaFJ3j24WUzTnIQq0aLrhqQ" target="_blank" rel="noopener noreferrer">
+                    <YoutubeSvg className="w-[42px]" />
+                </a>
             </div>
         </header>
     );

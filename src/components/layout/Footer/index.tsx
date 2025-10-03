@@ -16,13 +16,23 @@ const Footer = () => {
             </p>
             <div className="flex flex-col w-full items-center mt-9 sm:mt-11 md:mt-12 px-9 gap-7 md:gap-12 sm:flex-row-reverse sm:justify-end sm:px-0">
                 <div className="flex justify-center items-center gap-4 w-full py-4 bg-bg-footer rounded-[20px] sm:w-[277px]">
-                    <InstaSvg className="w-10" />
-                    <TgSvg className="w-10" />
-                    <YoutubeSvg className="w-10" />
+                    <a href="https://www.instagram.com/reptiland_kz?igsh=ZTI3c2FkNDk2MDRm" target="_blank" rel="noopener noreferrer">
+                        <InstaSvg className="w-10" />
+                    </a>
+                    <a href="https://t.me/almazoonews" target="_blank" rel="noopener noreferrer">
+                        <TgSvg className="w-10" />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCaFJ3j24WUzTnIQq0aLrhqQ" target="_blank" rel="noopener noreferrer">
+                        <YoutubeSvg className="w-10" />
+                    </a>
                 </div>
                 <div className="flex justify-center items-center gap-4 w-full py-4 bg-bg-footer rounded-[20px] sm:w-[277px]">
-                    <PhoneSvg className="w-10" />
-                    <MailSvg className="w-10" />
+                    <a href="tel:+7 705 119 4143">
+                        <PhoneSvg className="w-10" />
+                    </a>
+                    <a href="mailto:reptiland.contact@gmail.com">
+                        <MailSvg className="w-10" />
+                    </a>
                 </div>
             </div>
             <p className="mt-20 block text-center text-text-label font-medium text-base sm:text-md md:text-lg lg:text-xl">

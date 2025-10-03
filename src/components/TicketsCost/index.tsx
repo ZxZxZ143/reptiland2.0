@@ -26,7 +26,9 @@ const TicketCost = () => {
                 }
             </div>
             <div className="flex justify-center items-center w-full mt-15">
-                <Button className="px-20 py-1.5 mx-auto">КУПИТЬ БИЛЕТЫ</Button>
+                <a className="px-20 py-1.5 mx-auto" href="https://ticketon.kz/almaty/event/reptiland-v-almaty" target="_blank" rel="noopener noreferrer">
+                    <Button className="px-20 py-1.5 mx-auto">КУПИТЬ БИЛЕТЫ</Button>
+                </a>
             </div>
         </div>
     );

@@ -11,12 +11,16 @@ const BuySection = () => {
                 Первая в Казахстане выставка террариумных животных и оборудования
             </p>
             <div className="px-[14px] md:px-0 mt-7 lg:mt-14 md:flex md:gap-16">
-                <Button className="w-full md:max-w-[321px]">
-                    КУПИТЬ БИЛЕТЫ
-                </Button>
-                <Button variant="secondary" className="w-full md:mt-0 mt-9 md:max-w-[321px]">
-                    УЧАСТВОВАТЬ
-                </Button>
+                <a className="block w-full md:max-w-[321px]" href="https://ticketon.kz/almaty/event/reptiland-v-almaty" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full md:max-w-[321px]">
+                        КУПИТЬ БИЛЕТЫ
+                    </Button>
+                </a>
+                <a className="block w-full md:max-w-[321px]" href="https://docs.google.com/forms/d/e/1FAIpQLSeQgvYh-_JrqKl6jqLQsN-4-p7rCzZ6-brtHiKMMm0ErQwXpw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+                    <Button variant="secondary" className="w-full md:mt-0 mt-9 md:max-w-[321px]">
+                        УЧАСТВОВАТЬ
+                    </Button>
+                </a>
             </div>
         </div>
     );
