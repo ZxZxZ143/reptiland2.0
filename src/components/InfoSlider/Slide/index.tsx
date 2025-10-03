@@ -1,11 +1,11 @@
 import clsx from 'clsx';
 import React, {FC} from 'react';
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 interface SlideProps {
     title: string;
     description: string;
-    img: StaticImageData;
+    img: string;
     alt: string;
     className?: string;
     imageClassName?: string;
