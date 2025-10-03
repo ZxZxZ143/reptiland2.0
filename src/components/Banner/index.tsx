@@ -13,7 +13,7 @@ const Banner = () => {
                 </div>
                 <div className="flex items-center justify-center gap-5 sm:mt-0 mt-3 w-fit">
                     <MapPointSvg className="h-7 w-6 sm:h-9 sm:w-8"/>
-                    <p className="whitespace-pre-line sm:text-xl">Алматы, Атакен Экспо,{"\n"} 7-8 пальоны</p>
+                    <p className="whitespace-pre-line sm:text-xl">Алматы, Атакент Экспо,{"\n"} 7-8 пальоны</p>
                 </div>
             </div>
             <div className="w-full overflow-hidden mt-8">
