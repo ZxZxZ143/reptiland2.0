@@ -1,4 +1,4 @@
-import Image, {StaticImageData} from "next/image";
+import Image from "next/image";
 import {FC} from "react";
 import clsx from "clsx";
 
@@ -9,7 +9,7 @@ interface SchemaBlockProps {
     name2?: string;
     description2?: string;
     time: string;
-    img: StaticImageData;
+    img: string;
     border?: boolean;
 }
 

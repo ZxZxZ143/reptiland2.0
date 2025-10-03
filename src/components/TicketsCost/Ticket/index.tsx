@@ -1,13 +1,12 @@
-import Image, {StaticImageData} from "next/image";
+import Image from "next/image";
 import {FC} from "react";
 import clsx from "clsx";
-import Button from "@/components/shared/Button";
 
 interface TicketProps {
     title: string;
     cost: string;
     age?: string;
-    img: StaticImageData,
+    img: string,
     alt: string;
     isFree?: boolean;
 }
