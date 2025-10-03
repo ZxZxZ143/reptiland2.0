@@ -7,7 +7,7 @@ const TicketCost = () => {
     return (
         <div className="mt-[77px]">
             <Title>Стоимость билетов</Title>
-            <p className="mt-1.5 text-subtext-tickets font-medium text-sm">
+            <p className="mt-1.5 text-subtext-tickets font-medium text-sm leading-6">
                 Актуальную стоимость билетов смотрите ниже. Билеты на выставку приобретаются на платформе <strong>Ticketon.</strong>
             </p>
             <div className="flex flex-col gap-6 mt-9">

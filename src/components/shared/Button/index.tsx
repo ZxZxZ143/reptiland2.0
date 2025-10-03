@@ -6,6 +6,7 @@ interface ButtonProps {
     variant?: 'primary' | 'secondary';
     type?: 'submit' | 'reset' | 'button';
     className?: string;
+    size?: 'small' | 'medium' | 'large';
 }
 
 const Button: FC<PropsWithChildren<ButtonProps>> = ({
@@ -13,19 +14,27 @@ const Button: FC<PropsWithChildren<ButtonProps>> = ({
                                                         type = 'button',
                                                         variant = 'primary',
                                                         onClick,
-                                                        children
+                                                        children,
+                                                        size = 'medium',
                                                     }) => {
     const classNameMapping = {
-        'primary': 'bg-bg-button',
-        'secondary': 'bg-bg-button-secondary'
+        'primary': 'bg-bg-button hover:bg-bg-button/80 active:bg-bg-button/50',
+        'secondary': 'bg-bg-button-secondary hover:bg-bg-button-secondary/80 active:bg-bg-button-secondary/50'
+    }
+
+    const sizeMapping = {
+        'small': 'py-2.5',
+        'medium': 'p-3',
+        'large': 'p-4'
     }
 
     return (
         <button
             type={type}
             onClick={onClick}
-            className={clsx('inline-flex justify-center items-center py-1.5 text-text-button text-lg font-bold rounded-full',
+            className={clsx('transition cursor-pointer inline-flex justify-center items-center text-text-button text-lg font-bold rounded-full',
                 classNameMapping[variant],
+                sizeMapping[size],
                 className)
             }
         >

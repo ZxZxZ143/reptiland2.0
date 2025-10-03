@@ -4,7 +4,7 @@ import Button from "@/components/shared/Button";
 const BuySection = () => {
     return (
         <div>
-            <h2 className="font-alt text-2xl font-bold tracking-wider text-title-buy-section uppercase">
+            <h2 className="font-alt text-2xl font-bold text-title-buy-section tracking-[2.2px] uppercase">
                 УНИКАЛЬНОЕ СОБЫТИЕ, КОТОРОЕ ЗНАКОМИТ ДВА МИРА
             </h2>
             <p className="mt-5 text-buy-section text-md">

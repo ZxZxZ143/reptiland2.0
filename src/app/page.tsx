@@ -6,6 +6,7 @@ import RulesSection from "@/components/RulesSection";
 import FrequencyQuestionsSection from "@/components/FrequencyQuestionsSection";
 import TicketCost from "@/components/TicketsCost";
 import Footer from "@/components/layout/Footer";
+import SchemaSection from "@/components/SchemaSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
             <div className="px-5 pt-8">
                 <BuySection />
                 <InfoSlider />
+                <SchemaSection />
                 <RulesSection />
                 <FrequencyQuestionsSection />
                 <TicketCost />

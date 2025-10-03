@@ -34,6 +34,7 @@
   --color-buy-section: var(--grey-700);
   --color-bg-button: var(--grey-900);
   --color-bg-button-secondary: var(--green-light);
+  --color-bg-button-inactive: var(--grey-100);
   --color-text-button: var(--color-white);
   --color-bg-slide: var(--grey-300);
   --color-text-slide-title: var(--grey-650);
@@ -51,6 +52,10 @@
   --color-subtext-footer: var(--grey-400);
   --color-bg-footer: var(--grey-100);
   --color-text-label: var(--grey-500);
+  --color-subtext-schema: var(--grey-400);
+  --color-text-schema: var(--grey-700);
+  --color-text-schema-secondary: var(--grey-400);
+  --color-border-schema: var(--grey-250);
 
   --text-xxs: 12px;
   --text-xs: 13px;

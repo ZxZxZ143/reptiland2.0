@@ -15,7 +15,7 @@ const QuestionBlock: FC<QuestionBlockProps> = ({isActive, description, title, on
         <div className={clsx("w-full text-text-questions py-5 border-b-1 border-border-accordion", {
             'border-t-1': isBorder,
         })} onClick={onClick}>
-            <div className="flex justify-between items-center group gap-16 mb-3.5">
+            <div className={clsx("flex justify-between items-center group gap-16", {'mb-3.5': isActive})}>
                 <p className="text-s leading-6">{title}</p>
                 <PlusSvg className={clsx("min-w-9 aspect-square rounded-full group-hover:bg-bg-accordion-plus group-hover:[&>path]:stroke-white transition-all duration-500", {
                     'rotate-45 bg-bg-accordion-plus [&>path]:stroke-white': isActive

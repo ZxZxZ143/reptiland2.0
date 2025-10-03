@@ -14,9 +14,9 @@ interface SlideProps {
 const Slide:FC<SlideProps> = ({img, description, title, alt, className, imageClassName}) => {
     return (
         <div className="keen-slider__slide w-full flex flex-col items-center">
-            <div className={clsx('relative w-full max-h-[207px] h-[207px]', className)}>
+            <div className={clsx('relative w-full min-h-[207px]', className)}>
                 <div className="w-full absolute bottom-0 left-0 rounded-[20px] bg-bg-slide h-9/10" />
-                <Image src={img} alt={alt} className={imageClassName} />
+                <Image src={img} alt={alt} className={clsx('max-w-[560px] w-full', imageClassName)} />
             </div>
             <div className="flex flex-col mt-6 gap-4">
                 <p className="font-medium text-lg text-text-slide-title">
