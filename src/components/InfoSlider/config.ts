@@ -8,6 +8,7 @@ export const sliderMapping: Array<ISliderMapping> = [
         img: '/images/snake.png',
         alt: "Змея",
         className: "px-5 pb-6 flex justify-center items-center",
+        imageClassName: "scale-120 xl:-translate-y-[10%] lg:-translate-y-[15%] -translate-y-[10%]"
     },
     {
         id: 1,

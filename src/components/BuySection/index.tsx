@@ -1,28 +1,46 @@
-import React from 'react';
+import React from "react";
 import Button from "@/components/shared/Button";
 
 const BuySection = () => {
     return (
-        <div>
-            <h2 className="font-alt text-2xl font-bold text-title-buy-section tracking-[2.2px] uppercase sm:text-3xl md:text-5xl lg:text-6xl lg:whitespace-pre-line">
+        <section aria-labelledby="buy-section-title">
+            <h2
+                id="buy-section-title"
+                className="font-alt text-2xl font-bold text-title-buy-section tracking-[20%] xl:leading-20 lg:leading-16 md:leading-10 leading-8 uppercase sm:text-3xl md:text-5xl lg:text-6xl lg:whitespace-pre-line"
+            >
                 УНИКАЛЬНОЕ СОБЫТИЕ,{"\n"} КОТОРОЕ ЗНАКОМИТ {"\n"} ДВА МИРА
             </h2>
+
             <p className="mt-5 md:mt-7 lg:mt-14 text-buy-section text-md md:text-3xl sm:text-xl">
                 Первая в Казахстане выставка террариумных животных и оборудования
             </p>
-            <div className="px-[14px] md:px-0 mt-7 lg:mt-14 md:flex md:gap-16">
-                <a className="block w-full md:max-w-[321px]" href="https://ticketon.kz/almaty/event/reptiland-v-almaty" target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full md:max-w-[321px]">
+
+            <div
+                className="px-[14px] md:px-0 mt-7 lg:mt-14 md:flex md:gap-16"
+                aria-label="Основные действия"
+            >
+                <Button
+                    className="w-full md:max-w-[321px] opacity-60"
+                >
                         КУПИТЬ БИЛЕТЫ
-                    </Button>
-                </a>
-                <a className="block w-full md:max-w-[321px]" href="https://docs.google.com/forms/d/e/1FAIpQLSeQgvYh-_JrqKl6jqLQsN-4-p7rCzZ6-brtHiKMMm0ErQwXpw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
-                    <Button variant="secondary" className="w-full md:mt-0 mt-9 md:max-w-[321px]">
+                </Button>
+
+                <Button
+                    variant="secondary"
+                    className="w-full md:mt-0 mt-9 md:max-w-[321px]"
+                >
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSc3V9Zj1qOUrjjAaW9m4iCnXeyOKlKQESCUOK03q8YT7AO4YQ/viewform"
+                        target="_blank"
+                        rel="noopener noreferrer external"
+                        aria-label="Подать заявку на участие в выставке Reptiland, откроется в новой вкладке"
+                        title="Участвовать в Reptiland"
+                    >
                         УЧАСТВОВАТЬ
-                    </Button>
-                </a>
+                    </a>
+                </Button>
             </div>
-        </div>
+        </section>
     );
 };
 
