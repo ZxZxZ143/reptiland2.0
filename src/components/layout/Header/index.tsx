@@ -5,7 +5,7 @@ import YoutubeSvg from "@/assets/icons/YoutubeSvg";
 const Header = () => {
     return (
         <header
-            className="flex justify-between items-center gap-3 flex-wrap px-5 md:px-7 lg:px-12 max-w-[1280px] mx-auto"
+            className="flex w-full justify-between items-center gap-3 flex-wrap px-5 md:px-7 lg:px-12 max-w-[1280px] mx-auto"
             role="banner"
         >
             <div>
